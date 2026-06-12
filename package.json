@@ -1,0 +1,28 @@
+{
+  "name": "gitmsg",
+  "bin": {
+    "gitmsg": "./dist/index.js"
+  },
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Mattiasgj/gitmsg#readme",
+  "bugs": {
+    "url": "https://github.com/Mattiasgj/gitmsg/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mattiasgj/gitmsg.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@types/node": "^25.9.3",
+    "commander": "^15.0.0",
+    "typescript": "^6.0.3"
+  }
+}
