@@ -2,7 +2,7 @@ import ollama from "ollama";
 
 export async function generateMessage(gitDiff: string) {
 	const response = await ollama.chat({
-		model: "git-gen",
+		model: "git-gen-llama",
 		messages: [
 			{
 				role: "user",
