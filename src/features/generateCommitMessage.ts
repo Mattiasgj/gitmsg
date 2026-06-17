@@ -14,7 +14,6 @@ export default async function generateCommitMessage() {
 		if (stderr) {
 			return `Git error ${stderr}`;
 		}
-		console.log(stdout);
 		return await generateMessage(stdout);
 	} catch (err) {
 		return `Failed to generate message: ${err} `;
