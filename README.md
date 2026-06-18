@@ -1,6 +1,8 @@
 # Git Commit Message Generator
 This project is a Git commit message generator that uses the llama3.2 model to generate commit message based on the changes made in the current branch. The generator takes the diff of the changes and generates a commit message that summarizes the changes.
 
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/aa40c4fc-1ff1-4b9c-90e1-67a63755da4f" />
+
 ## Installation
 This project uses a LLM (Language Model) to generate commit messages, and it requires Ollama to be installed and running on your machine. This project uses the model llama3.2 witch works on graphics cards with up to 3gb vram, if you have a graphics card with more vram, you can use a larger model for better performance. 
 
