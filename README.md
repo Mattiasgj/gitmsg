@@ -6,7 +6,7 @@ This project uses a LLM (Language Model) to generate commit messages, and it req
 
 To use a different model, modify the following line in the `setup.js` file:
 ```
-		await ollama.pull({ model: "llama3.2" });
+await ollama.pull({ model: "llama3.2" });
 ```
 Replace "llama3.2" with the name of the model you want to use.
 
@@ -33,7 +33,11 @@ To install the project, follow these steps:
    ```bash
    node setup.js
    ```
-6. Adding the generator to your system PATH:
+6. Compile the generator:
+   ```bash
+   tsc
+   ```
+7. Adding the generator to your system PATH:
    ```bash
    npm link
    ```
